@@ -34,7 +34,7 @@ namespace Ds_Stack
         {
             if (isEmpty())
             {
-                throw new Exception();
+                throw new Exception("stack is empty");
             }
 
             if (_items.Length > (top * 2))
