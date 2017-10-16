@@ -10,6 +10,42 @@ namespace Ds_Stack
     {
         static void Main(string[] args)
         {
+
+            Stack<string> s = new Stack<string>(5);
+            s.push("here");
+            s.push("begins");
+            s.push("Progrmmimg");
+            s.push("jungle");
+            s.push("Welcome to ");
+
+
+
+            s.displayStack();
+            Console.ReadLine();
+
+            s.pop();
+            s.displayStack();
+            Console.ReadLine();
+
+            s.pop();
+            s.displayStack();
+            Console.ReadLine();
+
+            s.pop();
+            s.displayStack();
+            Console.ReadLine();
+
+            s.pop();
+            s.displayStack();
+            Console.ReadLine();
+
+            s.pop();
+            s.displayStack();
+            Console.ReadLine();
+
+            s.pop();
+            s.displayStack();
+            Console.ReadLine();
         }
     }
 }
